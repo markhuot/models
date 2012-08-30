@@ -1,0 +1,113 @@
+$ropecolor: #999;
+
+#rope1 {
+    @include cube(100px, 5px, 5px, $ropecolor);
+    top: 190px;
+    left: -400px;
+    -webkit-transform: rotateZ(-10deg) translateZ($z);
+}
+
+#rope2 {
+    @include cube(110px, 5px, 5px, $ropecolor);
+    top: 172px;
+    left: -300px;
+    -webkit-transform: rotateZ(-20deg) translateZ($z);
+}
+
+#rope3 {
+    @include cube(120px, 5px, 5px, $ropecolor);
+    top: 135px;
+    left: -200px;
+    -webkit-transform: rotateZ(-30deg) translateZ($z);
+}
+
+#rope4 {
+    @include cube(70px, 5px, 5px, $ropecolor);
+    top: 80px;
+    left: -100px;
+    -webkit-transform: rotateZ(-60deg) translateZ($z);
+}
+
+#rope5 {
+    @include cube(120px, 5px, 5px, $ropecolor);
+    top: 20px;
+    left: 20px;
+    -webkit-transform: rotateZ(30deg) translateZ($z);
+}
+
+#rope6 {
+    @include cube(110px, 5px, 5px, $ropecolor);
+    top: 78px;
+    left: 120px;
+    -webkit-transform: rotateZ(20deg) translateZ($z);
+}
+
+#rope7 {
+    @include cube(105px, 5px, 5px, $ropecolor);
+    top: 115px;
+    left: 220px;
+    -webkit-transform: rotateZ(10deg) translateZ($z);
+}
+
+#rope8 {
+    @include cube(100px, 5px, 5px, $ropecolor);
+    top: 133px;
+    left: 320px;
+    -webkit-transform: rotateZ(0deg) translateZ($z);
+}
+
+#rope9 {
+    @include cube(105px, 5px, 5px, $ropecolor);
+    top: 133px;
+    left: 420px;
+    -webkit-transform: rotateZ(-10deg) translateZ($z);
+}
+
+#rope10 {
+    @include cube(110px, 5px, 5px, $ropecolor);
+    top: 115px;
+    left: 520px;
+    -webkit-transform: rotateZ(-20deg) translateZ($z);
+}
+
+#rope11 {
+    @include cube(117px, 5px, 5px, $ropecolor);
+    top: 80px;
+    left: 620px;
+    -webkit-transform: rotateZ(-30deg) translateZ($z);
+}
+
+#rope12 {
+    @include cube(30px, 5px, 5px, $ropecolor);
+    top: 22px;
+    left: 720px;
+    -webkit-transform: rotateZ(-40deg) translateZ($z);
+}
+
+#rope13 {
+    @include cube(70px, 5px, 5px, $ropecolor);
+    top: 10px;
+    left: 810px;
+    -webkit-transform: rotateZ(60deg) translateZ($z);
+}
+
+#rope14 {
+    @include cube(120px, 5px, 5px, $ropecolor);
+    top: 70px;
+    left: 845px;
+    -webkit-transform: rotateZ(30deg) translateZ($z);
+}
+
+#rope15 {
+    @include cube(110px, 5px, 5px, $ropecolor);
+    top: 130px;
+    left: 950px;
+    -webkit-transform: rotateZ(20deg) translateZ($z);
+}
+
+#rope16 {
+    @include cube(100px, 5px, 5px, $ropecolor);
+    top: 170px;
+    left: 1055px;
+    -webkit-transform: rotateZ(10deg) translateZ($z);
+}

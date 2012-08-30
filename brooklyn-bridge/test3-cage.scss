@@ -1,0 +1,91 @@
+#left-railing {
+  @include cube(1580px, 5px, 5px, #999);
+  top: 220px;
+  left: -400px;
+}
+
+#right-railing {
+	@include cube(1580px, 5px, 5px, #999);
+  top: 220px;
+  left: -400px;
+  -webkit-transform: translateZ(-195px);
+}
+
+#left-railing-cap {
+  @include cube(1580px, 5px, 5px, #999);
+  top: 210px;
+  left: -400px;
+}
+
+#right-railing-cap {
+	@include cube(1580px, 5px, 5px, #999);
+  top: 210px;
+  left: -400px;
+  -webkit-transform: translateZ(-195px);
+}
+
+#center-railing-cap {
+	@include cube(1580px, 2px, 20px, #999);
+  top: 193px;
+  left: -400px;
+  -webkit-transform: translateZ(-95px);
+}
+
+@mixin rollbar($index, $color: #eee) {
+	#cage#{$index}a {
+		@include cube(20px, 50px, 5px, $color);
+	  top: 200px;
+	  left: -400px + (50 * $index);
+	  -webkit-transform: translateZ(5px);
+	}
+
+	#cage#{$index}b {
+		@include cube(20px, 5px, 210px, $color);
+	  top: 195px;
+	  left: -400px + (50 * $index);
+	  -webkit-transform: translateZ(5px);
+	}
+
+	#cage#{$index}c {
+		@include cube(20px, 50px, 5px, $color);
+	  top: 200px;
+	  left: -400px + (50 * $index);
+	  -webkit-transform: translateZ(-200px);
+	}
+}
+
+@include rollbar(0);
+@include rollbar(1);
+@include rollbar(2);
+@include rollbar(3);
+@include rollbar(4);
+@include rollbar(5);
+@include rollbar(6);
+
+@include rollbar(9);
+@include rollbar(10);
+@include rollbar(11);
+@include rollbar(12);
+@include rollbar(13);
+@include rollbar(14);
+@include rollbar(15);
+@include rollbar(16);
+@include rollbar(17);
+@include rollbar(18);
+@include rollbar(19);
+@include rollbar(20);
+@include rollbar(21);
+@include rollbar(22);
+
+@include rollbar(25);
+@include rollbar(26);
+@include rollbar(27);
+@include rollbar(28);
+@include rollbar(29);
+@include rollbar(30);
+@include rollbar(31);
+@include rollbar(32);
+@include rollbar(33);
+@include rollbar(34);
+@include rollbar(35);
+@include rollbar(36);

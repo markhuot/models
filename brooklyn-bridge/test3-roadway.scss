@@ -1,0 +1,179 @@
+#brick1 {
+	@include cube(50px, 140px, 200px, #bbb);
+	top: 250px;
+	left: $left + 50px;
+}
+
+#brick2 {
+	@include cube(20px, 140px, 20px);
+	top: 250px;
+	left: $left + 30px;
+	-webkit-transform: translateZ(-10px);
+}
+
+#brick3 {
+	@include cube(20px, 140px, 20px);
+	top: 250px;
+	left: $left + 100px;
+	-webkit-transform: translateZ(-10px);
+}
+
+#brick6 {
+	@include cube(20px, 140px, 20px);
+	top: 250px;
+	left: $left + 30px;
+	-webkit-transform: translateZ(-170px);
+}
+
+#brick7 {
+	@include cube(20px, 140px, 20px);
+	top: 250px;
+	left: $left + 100px;
+	-webkit-transform: translateZ(-170px);
+}
+
+#support1 {
+	@include cube(90px, 100px, 40px);
+	top: 0;
+	left: $left + 30px;
+	-webkit-transform: translateZ(-80px);
+}
+
+#support2 {
+	@include cube(90px, 140px, 40px, #ccc);
+	top: 100px;
+	left: $left + 30px;
+	-webkit-transform: translateZ(-80px);
+}
+
+#support3 {
+	@include cube(30px, 140px, 40px, #eee);
+	top: 250px;
+	left: $left + 20px;
+	-webkit-transform: translateZ(-80px);
+}
+
+#support4 {
+	@include cube(30px, 140px, 40px, #eee);
+	top: 250px;
+	left: $left + 100px;
+	-webkit-transform: translateZ(-80px);
+}
+
+#left-arch-1 #arch1 {
+	@include cube(70px, 240px, 15px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-5px);
+}
+
+#left-arch-1 #arch2 {
+	@include cube(70px, 100px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-20px);
+}
+
+#left-arch-1 #arch3 {
+	@include cube(70px, 80px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-30px);
+}
+
+#left-arch-1 #arch4 {
+	@include cube(70px, 60px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-40px);
+}
+
+#left-arch-1 #arch5 {
+	@include cube(70px, 50px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-50px);
+}
+
+#left-arch-1 #arch6 {
+	@include cube(70px, 60px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-60px);
+}
+
+#left-arch-1 #arch7 {
+	@include cube(70px, 80px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-70px);
+}
+
+#left-arch-2 #arch1 {
+	@include cube(70px, 240px, 15px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-175px);
+}
+
+#left-arch-2 #arch2 {
+	@include cube(70px, 100px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-170px);
+}
+
+#left-arch-2 #arch3 {
+	@include cube(70px, 80px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-160px);
+}
+
+#left-arch-2 #arch4 {
+	@include cube(70px, 60px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-150px);
+}
+
+#left-arch-2 #arch5 {
+	@include cube(70px, 50px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-140px);
+}
+
+#left-arch-2 #arch6 {
+	@include cube(70px, 60px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-130px);
+}
+
+#left-arch-2 #arch7 {
+	@include cube(70px, 80px, 10px);
+	top: 0;
+	left: $left + 40px;
+	-webkit-transform: translateZ(-120px);
+}
+
+#cap1 {
+	@include cube(110px, 5px, 200px, #ccc);
+	top: -5px;
+	left: $left + 20px;
+}
+
+#cap2 {
+	@include cube(60px, 5px, 60px, #bbb);
+	top: -10px;
+	left: $left + 45px;
+	-webkit-transform: translateZ(-20px);
+}
+
+#cap3 {
+	@include cube(60px, 5px, 60px, #bbb);
+	top: -10px;
+	left: $left + 45px;
+	-webkit-transform: translateZ(-120px);
+}
